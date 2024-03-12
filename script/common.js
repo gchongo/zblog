@@ -142,10 +142,10 @@ function video_ok(){
     })
 }
 
-//$(document).ready(function() {
-//  var a = $(".footer").find('a[href="https://www.52fb.cn/"], a[href="https://www.b5b6.com/"], a[href="https://www.ylefu.com/"]');
-//  if ("前端老白" != a.text() && !a.is(":hidden") && "nofollow" != a.attr("rel") && "hidden" != a.css("visibility")) {
-    // $("head").remove();
-//    alert("不可删除“theme by zblog老白”作者版权链接，会收到此提醒！\n 如您是更新后遇到问题，请到主题管理中，启用一次本主题\n 修改的用户退回删除的版权代码或者再安装一次模板即可恢复，如不恢复清除浏览器缓存解决，或加Q:525887672 ");
-//  }
+$(document).ready(function() {
+  var a = $(".footer").find('a[href="https://www.52fb.cn/"], a[href="https://www.b5b6.com/"], a[href="https://www.ylefu.com/"]');
+  if ("前端老白" != a.text() && !a.is(":hidden") && "nofollow" != a.attr("rel") && "hidden" != a.css("visibility")) {
+     $("head").remove();
+    alert("不可删除“theme by zblog老白”作者版权链接，会收到此提醒！\n 如您是更新后遇到问题，请到主题管理中，启用一次本主题\n 修改的用户退回删除的版权代码或者再安装一次模板即可恢复，如不恢复清除浏览器缓存解决，或加Q:525887672 ");
+  }
 });
