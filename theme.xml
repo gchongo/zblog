@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme version="php">
+<id>ydtu</id>
+<name>图片站|自适应</name>
+<url>https://www.pastory.org/</url>
+<note>简约而不简单，图片站模板</note>
+<description>简约而不简单，图片站模板</description>
+<path>admin/relevant.php</path>
+<include>include.php</include>
+<level>1</level>
+<author>
+  <name>Past Story</name>
+  <email>me@pastory.com</email>
+  <url>https://www.ylefu.com/</url>
+</author>
+<source>
+  <name></name>
+  <email></email>
+  <url>https://www.ylefu.com/</url>
+</source>
+<adapted>151603</adapted>
+<version>1.5.2</version>
+<pubdate>2017-06-18</pubdate>
+<modified>2023-10-02</modified>
+<price>0</price>
+<advanced>
+  <dependency></dependency>
+  <rewritefunctions></rewritefunctions>
+  <conflict></conflict>
+</advanced>
+<sidebars>
+  <sidebar1>nav|contact</sidebar1>
+  <sidebar2>nav|contact</sidebar2>
+  <sidebar3>nav|contact</sidebar3>
+  <sidebar4>nav|contact</sidebar4>
+  <sidebar5>nav|contact</sidebar5>
+</sidebars>
+</theme>
